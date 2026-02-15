@@ -1,0 +1,113 @@
+[
+  {
+    "ContainingType": "IncidentAPI.Controllers.IncidentsController",
+    "Method": "CreateIncident",
+    "RelativePath": "api/Incidents/create-incident",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "incident",
+        "Type": "IncidentAPI.Models.Incident",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IncidentAPI.Controllers.IncidentsController",
+    "Method": "DeleteIncident",
+    "RelativePath": "api/Incidents/delete-incident/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IncidentAPI.Controllers.IncidentsController",
+    "Method": "FilterBySeverity",
+    "RelativePath": "api/Incidents/filter-by-status/severity",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sev",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IncidentAPI.Controllers.IncidentsController",
+    "Method": "FilterByStatus",
+    "RelativePath": "api/Incidents/filter-by-status/status",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "stat",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IncidentAPI.Controllers.IncidentsController",
+    "Method": "GetAllIncidents",
+    "RelativePath": "api/Incidents/get-incidents",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IncidentAPI.Controllers.IncidentsController",
+    "Method": "GetIncidentById",
+    "RelativePath": "api/Incidents/getbyid/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IncidentAPI.Controllers.IncidentsController",
+    "Method": "UpdateIncidentStatus",
+    "RelativePath": "api/Incidents/update-status/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
