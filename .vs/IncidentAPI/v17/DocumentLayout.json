@@ -7,15 +7,35 @@
       "RelativeMoniker": "D:0:0:{84AB966A-56F4-431A-857D-15C90A2CD288}|IncidentAPI\\IncidentAPI.csproj|solutionrelative:incidentapi\\controllers\\incidentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MOHAMED\\AppData\\Local\\Temp\\.vsdbgsrc\\7e924806cf46c7fbe5f993dd716540c23b5c064733244b46c1f19ffaa55f6784\\ThrowHelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{84AB966A-56F4-431A-857D-15C90A2CD288}|IncidentAPI\\IncidentAPI.csproj|c:\\users\\mohamed\\source\\repos\\incidentapi\\incidentapi\\controllers\\incidentsdbcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84AB966A-56F4-431A-857D-15C90A2CD288}|IncidentAPI\\IncidentAPI.csproj|solutionrelative:incidentapi\\controllers\\incidentsdbcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84AB966A-56F4-431A-857D-15C90A2CD288}|IncidentAPI\\IncidentAPI.csproj|c:\\users\\mohamed\\source\\repos\\incidentapi\\incidentapi\\migrations\\20260223100858_firstone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84AB966A-56F4-431A-857D-15C90A2CD288}|IncidentAPI\\IncidentAPI.csproj|solutionrelative:incidentapi\\migrations\\20260223100858_firstone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.311\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84AB966A-56F4-431A-857D-15C90A2CD288}|IncidentAPI\\IncidentAPI.csproj|c:\\users\\mohamed\\source\\repos\\incidentapi\\incidentapi\\incidentapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{84AB966A-56F4-431A-857D-15C90A2CD288}|IncidentAPI\\IncidentAPI.csproj|solutionrelative:incidentapi\\incidentapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84AB966A-56F4-431A-857D-15C90A2CD288}|IncidentAPI\\IncidentAPI.csproj|c:\\users\\mohamed\\source\\repos\\incidentapi\\incidentapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{84AB966A-56F4-431A-857D-15C90A2CD288}|IncidentAPI\\IncidentAPI.csproj|solutionrelative:incidentapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84AB966A-56F4-431A-857D-15C90A2CD288}|IncidentAPI\\IncidentAPI.csproj|c:\\users\\mohamed\\source\\repos\\incidentapi\\incidentapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84AB966A-56F4-431A-857D-15C90A2CD288}|IncidentAPI\\IncidentAPI.csproj|solutionrelative:incidentapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{84AB966A-56F4-431A-857D-15C90A2CD288}|IncidentAPI\\IncidentAPI.csproj|c:\\users\\mohamed\\source\\repos\\incidentapi\\incidentapi\\models\\incident.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84AB966A-56F4-431A-857D-15C90A2CD288}|IncidentAPI\\IncidentAPI.csproj|solutionrelative:incidentapi\\models\\incident.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84AB966A-56F4-431A-857D-15C90A2CD288}|IncidentAPI\\IncidentAPI.csproj|c:\\users\\mohamed\\source\\repos\\incidentapi\\incidentapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84AB966A-56F4-431A-857D-15C90A2CD288}|IncidentAPI\\IncidentAPI.csproj|solutionrelative:incidentapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{84AB966A-56F4-431A-857D-15C90A2CD288}|IncidentAPI\\IncidentAPI.csproj|c:\\users\\mohamed\\source\\repos\\incidentapi\\incidentapi\\models\\incidentsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84AB966A-56F4-431A-857D-15C90A2CD288}|IncidentAPI\\IncidentAPI.csproj|solutionrelative:incidentapi\\models\\incidentsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{84AB966A-56F4-431A-857D-15C90A2CD288}|IncidentAPI\\IncidentAPI.csproj|c:\\users\\mohamed\\source\\repos\\incidentapi\\incidentapi\\incidentapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
@@ -29,7 +49,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,15 +62,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ThrowHelper.cs",
-              "DocumentMoniker": "C:\\Users\\MOHAMED\\AppData\\Local\\Temp\\.vsdbgsrc\\7e924806cf46c7fbe5f993dd716540c23b5c064733244b46c1f19ffaa55f6784\\ThrowHelper.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\7e924806cf46c7fbe5f993dd716540c23b5c064733244b46c1f19ffaa55f6784\\ThrowHelper.cs",
-              "ToolTip": "C:\\Users\\MOHAMED\\AppData\\Local\\Temp\\.vsdbgsrc\\7e924806cf46c7fbe5f993dd716540c23b5c064733244b46c1f19ffaa55f6784\\ThrowHelper.cs [Lecture seule]",
-              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\7e924806cf46c7fbe5f993dd716540c23b5c064733244b46c1f19ffaa55f6784\\ThrowHelper.cs [Lecture seule]",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACwAAAACAAAAAQAAAA==",
+              "Title": "IncidentsDbController.cs",
+              "DocumentMoniker": "C:\\Users\\MOHAMED\\source\\repos\\IncidentAPI\\IncidentAPI\\Controllers\\IncidentsDbController.cs",
+              "RelativeDocumentMoniker": "IncidentAPI\\Controllers\\IncidentsDbController.cs",
+              "ToolTip": "C:\\Users\\MOHAMED\\source\\repos\\IncidentAPI\\IncidentAPI\\Controllers\\IncidentsDbController.cs",
+              "RelativeToolTip": "IncidentAPI\\Controllers\\IncidentsDbController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-09T10:49:34.919Z",
-              "EditorCaption": " [Lecture seule]"
+              "WhenOpened": "2026-02-23T11:55:51.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Microsoft.PackageDependencyResolution.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.311\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.311\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.311\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.311\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ViewState": "AgIAAPsAAAAAAAAAAAAswAEBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-02-23T11:46:02.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IncidentAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\MOHAMED\\source\\repos\\IncidentAPI\\IncidentAPI\\IncidentAPI.csproj",
+              "RelativeDocumentMoniker": "IncidentAPI\\IncidentAPI.csproj",
+              "ToolTip": "C:\\Users\\MOHAMED\\source\\repos\\IncidentAPI\\IncidentAPI\\IncidentAPI.csproj",
+              "RelativeToolTip": "IncidentAPI\\IncidentAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-23T10:27:44.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IncidentsDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\MOHAMED\\source\\repos\\IncidentAPI\\IncidentAPI\\Models\\IncidentsDbContext.cs",
+              "RelativeDocumentMoniker": "IncidentAPI\\Models\\IncidentsDbContext.cs",
+              "ToolTip": "C:\\Users\\MOHAMED\\source\\repos\\IncidentAPI\\IncidentAPI\\Models\\IncidentsDbContext.cs",
+              "RelativeToolTip": "IncidentAPI\\Models\\IncidentsDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T09:13:15.441Z"
             },
             {
               "$type": "Document",
@@ -60,7 +116,7 @@
               "RelativeDocumentMoniker": "IncidentAPI\\Controllers\\IncidentsController.cs",
               "ToolTip": "C:\\Users\\MOHAMED\\source\\repos\\IncidentAPI\\IncidentAPI\\Controllers\\IncidentsController.cs",
               "RelativeToolTip": "IncidentAPI\\Controllers\\IncidentsController.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAAACEAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAmwHQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-09T09:48:50.796Z",
               "EditorCaption": ""
@@ -68,32 +124,55 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "20260223100858_FirstOne.cs",
+              "DocumentMoniker": "C:\\Users\\MOHAMED\\source\\repos\\IncidentAPI\\IncidentAPI\\Migrations\\20260223100858_FirstOne.cs",
+              "RelativeDocumentMoniker": "IncidentAPI\\Migrations\\20260223100858_FirstOne.cs",
+              "ToolTip": "C:\\Users\\MOHAMED\\source\\repos\\IncidentAPI\\IncidentAPI\\Migrations\\20260223100858_FirstOne.cs",
+              "RelativeToolTip": "IncidentAPI\\Migrations\\20260223100858_FirstOne.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwCIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T10:08:58.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\MOHAMED\\source\\repos\\IncidentAPI\\IncidentAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "IncidentAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\MOHAMED\\source\\repos\\IncidentAPI\\IncidentAPI\\appsettings.json",
+              "RelativeToolTip": "IncidentAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-23T09:55:29.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Incident.cs",
               "DocumentMoniker": "C:\\Users\\MOHAMED\\source\\repos\\IncidentAPI\\IncidentAPI\\Models\\Incident.cs",
               "RelativeDocumentMoniker": "IncidentAPI\\Models\\Incident.cs",
               "ToolTip": "C:\\Users\\MOHAMED\\source\\repos\\IncidentAPI\\IncidentAPI\\Models\\Incident.cs",
               "RelativeToolTip": "IncidentAPI\\Models\\Incident.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAABQAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAuwBQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T11:26:03.225Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-02T11:26:03.225Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\MOHAMED\\source\\repos\\IncidentAPI\\IncidentAPI\\Program.cs",
               "RelativeDocumentMoniker": "IncidentAPI\\Program.cs",
               "ToolTip": "C:\\Users\\MOHAMED\\source\\repos\\IncidentAPI\\IncidentAPI\\Program.cs",
               "RelativeToolTip": "IncidentAPI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAswAsAAACVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T10:55:19.575Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-02T10:55:19.575Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "IncidentAPI.http",
               "DocumentMoniker": "C:\\Users\\MOHAMED\\source\\repos\\IncidentAPI\\IncidentAPI\\IncidentAPI.http",
               "RelativeDocumentMoniker": "IncidentAPI\\IncidentAPI.http",
@@ -101,8 +180,7 @@
               "RelativeToolTip": "IncidentAPI\\IncidentAPI.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2026-02-02T10:55:17.28Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-02T10:55:17.28Z"
             }
           ]
         }

@@ -109,5 +109,114 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IncidentAPI.Controllers.IncidentsDbController",
+    "Method": "GetIncidents",
+    "RelativePath": "api/IncidentsDb",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[IncidentAPI.Models.Incident, IncidentAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "IncidentAPI.Controllers.IncidentsDbController",
+    "Method": "PostIncident",
+    "RelativePath": "api/IncidentsDb",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "incident",
+        "Type": "IncidentAPI.Models.Incident",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "IncidentAPI.Models.Incident",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "IncidentAPI.Controllers.IncidentsDbController",
+    "Method": "GetIncident",
+    "RelativePath": "api/IncidentsDb/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "IncidentAPI.Models.Incident",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "IncidentAPI.Controllers.IncidentsDbController",
+    "Method": "PutIncident",
+    "RelativePath": "api/IncidentsDb/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "incident",
+        "Type": "IncidentAPI.Models.Incident",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IncidentAPI.Controllers.IncidentsDbController",
+    "Method": "DeleteIncident",
+    "RelativePath": "api/IncidentsDb/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
