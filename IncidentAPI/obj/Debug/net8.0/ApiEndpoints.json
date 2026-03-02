@@ -33,38 +33,6 @@
   },
   {
     "ContainingType": "IncidentAPI.Controllers.IncidentsController",
-    "Method": "FilterBySeverity",
-    "RelativePath": "api/Incidents/filter-by-status/severity",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "sev",
-        "Type": "System.String",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "IncidentAPI.Controllers.IncidentsController",
-    "Method": "FilterByStatus",
-    "RelativePath": "api/Incidents/filter-by-status/status",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "stat",
-        "Type": "System.String",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "IncidentAPI.Controllers.IncidentsController",
     "Method": "GetAllIncidents",
     "RelativePath": "api/Incidents/get-incidents",
     "HttpMethod": "GET",
@@ -214,6 +182,22 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IncidentAPI.Controllers.IncidentsDbController",
+    "Method": "FilterbyStatus",
+    "RelativePath": "api/IncidentsDb/filter/{status}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "status",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],

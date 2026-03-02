@@ -136,48 +136,6 @@
         }
       }
     },
-    "/api/Incidents/filter-by-status/status": {
-      "get": {
-        "tags": [
-          "Incidents"
-        ],
-        "parameters": [
-          {
-            "name": "stat",
-            "in": "query",
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Incidents/filter-by-status/severity": {
-      "get": {
-        "tags": [
-          "Incidents"
-        ],
-        "parameters": [
-          {
-            "name": "sev",
-            "in": "query",
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
     "/api/IncidentsDb": {
       "get": {
         "tags": [
@@ -353,6 +311,28 @@
             "schema": {
               "type": "integer",
               "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/IncidentsDb/filter/{status}": {
+      "get": {
+        "tags": [
+          "IncidentsDb"
+        ],
+        "parameters": [
+          {
+            "name": "status",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
             }
           }
         ],

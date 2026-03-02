@@ -92,25 +92,6 @@ namespace IncidentAPI.Controllers
             return NotFound($"Incident {id} n'existe pas.");
 
         }
-        [HttpGet("filter-by-status/status")]
-        public IActionResult FilterByStatus(String stat)
-        {
-            List <Incident> ls = _incidents.FindAll(i=> i.Status==stat);
-            if (ls.Count!= 0)
-            {
-                return Ok(ls);
-            }
-            return BadRequest($"Il n'existe aucune resultat avec le statut {stat}");
-        }
-        [HttpGet("filter-by-status/severity")]
-        public IActionResult FilterBySeverity(String sev)
-        {
-            List<Incident> ls = _incidents.FindAll(i => i.Severity == sev);
-            if (ls.Count != 0)
-            {
-                return Ok(ls);
-            }
-            return BadRequest($"Il n'existe aucune resultat avec la seevrité {sev}");
-        }
+        
     }
 }

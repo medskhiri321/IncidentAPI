@@ -98,6 +98,22 @@ namespace IncidentAPI.Controllers
 
             return NoContent();
         }
+        [HttpGet("filterByStatus/{status}")]
+        public IActionResult FilterbyStatus(string status)
+        {
+            var incidents = from i in _context.Incidents
+                where i.Status.Contains(status)
+                select i;
+             return Ok(incidents);
+        }
+        [HttpGet("filterBySeverity/{severity}")]
+        public IActionResult FilterbySeverity(string severity)
+        {
+            var incidents = from i in _context.Incidents
+                            where i.Severity.Contains(severity)
+                            select i;
+            return Ok(incidents);
+        }
 
         private bool IncidentExists(int id)
         {
