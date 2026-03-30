@@ -77,6 +77,8 @@ namespace IncidentAPI.Controllers
         [HttpPost]
         public async Task<ActionResult<Incident>> PostIncident(Incident incident)
         {
+            incident.CreatedAt = DateTime.UtcNow;
+            incident.Status = "OPEN";
             _context.Incidents.Add(incident);
             await _context.SaveChangesAsync();
 
