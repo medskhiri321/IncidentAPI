@@ -126,8 +126,8 @@ return BadRequest(ModelState);
             var incidents = from i in _context.Incidents
                             where i.Severity.Contains(severity)
                             select i;
-            
-            return Ok(incidents.ToListAsync());
+
+            return Ok(await incidents.ToListAsync());
         }
 
 
