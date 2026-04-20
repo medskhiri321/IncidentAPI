@@ -15,6 +15,7 @@ namespace IncidentAPI.Models
         [StringLength(200,ErrorMessage="Description Invalide.")]
         public string Description { get; set; } = string.Empty;
         [Required]
+        [RegularExpression("LOW|MEDIUM|HIGH|CRITICAL", ErrorMessage = "Invalid severity")]
         public string Severity { get; set; } = string.Empty;
    
         
