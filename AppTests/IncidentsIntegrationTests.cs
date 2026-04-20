@@ -49,7 +49,7 @@ namespace AppTests
             await _client.PostAsJsonAsync("/api/IncidentsDb", incident);
             var response = await _client.GetAsync("/api/IncidentsDb");
             var data = await response.Content.ReadFromJsonAsync<List<Incident>>();
-            Assert.Contains(data, i => i.Status == "Integration Test");
+            Assert.Contains(data, i => i.Title == "Integration Test");
         }
 
     }
