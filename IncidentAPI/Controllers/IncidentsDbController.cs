@@ -77,6 +77,10 @@ namespace IncidentAPI.Controllers
         [HttpPost]
         public async Task<ActionResult<Incident>> PostIncident(Incident incident)
         {
+            if (!ModelState.IsValid)
+{
+return BadRequest(ModelState);
+}
             incident.CreatedAt = DateTime.UtcNow;
             incident.Status = "OPEN";
             _context.Incidents.Add(incident);
@@ -116,6 +120,16 @@ namespace IncidentAPI.Controllers
                             select i;
             return Ok(incidents);
         }
+        [HttpGet("filterBySeverityAsync/{severity}")]
+        public async Task<IActionResult> FilterbySeverityAsync(string severity)
+        {
+            var incidents = from i in _context.Incidents
+                            where i.Severity.Contains(severity)
+                            select i;
+            
+            return Ok(incidents.ToListAsync());
+        }
+
 
         private bool IncidentExists(int id)
         {
